@@ -9,6 +9,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+//@Test
 public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.tv_test)

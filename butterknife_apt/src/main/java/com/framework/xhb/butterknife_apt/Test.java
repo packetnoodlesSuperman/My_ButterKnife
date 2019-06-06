@@ -6,8 +6,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Retention(RetentionPolicy.CLASS)
+/**
+ * @author xhb
+ * @desc custom annotation type
+ */
 @Target(ElementType.TYPE)
-@Inherited
+@Retention(RetentionPolicy.CLASS)
 public @interface Test {
+
 }
